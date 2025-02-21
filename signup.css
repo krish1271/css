@@ -54,3 +54,49 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+
+/* Media queries */
+
+@media screen and (max-width:600px){
+    body{
+        display: flex;
+        margin: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 250px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.192);
+    backdrop-filter: blur(7px);
+    }
+
+    form{
+        text-align: center;
+        justify-content: center;
+    }
+
+    h1{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    
+    input{
+        color: rgb(0, 0, 0);
+        padding: 10px  35px;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    
+    button{
+        padding: 10px 90px;
+        border: none;
+    }
+    
+}
